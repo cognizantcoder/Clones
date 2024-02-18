@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+
+}
+.container{
+    display:flex;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo img{
+    height: auto;
+    width: 150px;
+}
+.center_nav{
+    display: flex;
+}
+.search{ 
+    display: flex;
+}
+.search input {
+    min-width: 500px;
+    height: 35px;
+    padding: 10px 20px ;
+    border: 0.5 solid lightgray;
+    margin-top:  10px ;
+    border-radius: 20px;
+}
+button{
+    border: none;
+    padding: 5px;
+    background-color: transparent;
+    display: grid;
+    align-items: center;
+}
+.mic{
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 5px;
+    background: rgb(240, 239, 239);
+    font-size: 4px;
+    display: grid;
+    align-items: center;
+    margin-left: 10px;
+}
+.side_nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-right: 50px;
+    
+}
+i{
+    font-size: 30px;
+}
+
+.tags{
+    display: flex;
+    padding: 10ppx 20px ;
+    gap: 15px;
+    border-top: 1px solid #ccc;
+    
+}
+.tag{
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 5px;
+    
+}
+.dark{
+    background: black;
+    color: white;
+    font-weight: 500;
+    margin-left: 50px;
+}
+.light{
+    background: rgb(238, 238, 238);
+    color: rgb(67, 67, 67);
+}
+
+.main_container{
+    width: 100%;
+}
+aside{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+.side_icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.side-icons img {
+    width: 30px;
+    
+}
+.side_icons p{
+    font-size: 10px
+}
+.bars{
+    margin-top: 20px;
+}
+main{
+    min-height: 100vh;
+    background: transparent
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ .card_container img{
+  background-size: cover;
+  background-position: center;
+  margin-top: 5px;
+  
+ } 
+
+
